@@ -19,7 +19,11 @@
     "svelte": "^3.22.3"
   },
   "eslintConfig": {
-    "extends": "@beyonk"
+    "extends": "@beyonk",
+    "globals": {
+      "describe": true,
+      "it": true
+    }
   },
   "devDependencies": {
     "@beyonk/eslint-config": "^4.0.1",
