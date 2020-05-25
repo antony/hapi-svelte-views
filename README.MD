@@ -2,6 +2,9 @@
 
 Status: Working, but experimental
 
+![publish](https://github.com/antony/hapi-svelte-views/workflows/publish/badge.svg)
+[![NPM version](https://img.shields.io/npm/v/hapi-svelte-views.svg)](https://www.npmjs.com/package/hapi-svelte-views)
+
 ### Installation and Usage
 
 ```bash
