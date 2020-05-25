@@ -1,0 +1,19 @@
+{
+  "name": "hapi-svelte-views",
+  "version": "0.0.0",
+  "description": "Svelte View Engine for Hapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Antony Jones",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hoek": "^9.0.4",
+    "@rollup/plugin-commonjs": "^12.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.0",
+    "@rollup/plugin-virtual": "^2.0.2",
+    "rollup": "^2.10.9",
+    "rollup-plugin-svelte": "^5.2.2"
+  }
+}
