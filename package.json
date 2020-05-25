@@ -4,7 +4,7 @@
   "description": "Svelte View Engine for Hapi",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
+    "test": "mocha */*.spec.js",
     "lint": "eslint ."
   },
   "author": "Antony Jones",
@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@beyonk/eslint-config": "^4.0.1",
+    "@hapi/code": "^8.0.1",
     "eslint": "^7.1.0",
     "mocha": "^7.2.0"
   },
