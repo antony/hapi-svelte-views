@@ -8,7 +8,7 @@ Status: Working, but experimental
 ### Installation and Usage
 
 ```bash
-npm install --save-dev hapi-svelte-views vision
+npm install --save-dev hapi-svelte-views svelte @hapi/vision
 ```
 
 ```js
