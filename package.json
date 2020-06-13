@@ -1,6 +1,6 @@
 {
   "name": "hapi-svelte-views",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Svelte View Engine for Hapi",
   "main": "index.js",
   "scripts": {
