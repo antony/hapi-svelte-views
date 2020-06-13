@@ -37,7 +37,9 @@ npm install --save-dev hapi-svelte-views svelte @hapi/vision
     path: '/',
     handler: (request, h) => {
       // Render Home view and pass it some props
-      return h.view('Home', { name: 'World' })
+      const props = { name: 'World' }
+      const layout = 'BasicLayout'
+      return h.view('Home', { layout, props })
     }
   })
 ```
@@ -45,4 +47,14 @@ npm install --save-dev hapi-svelte-views svelte @hapi/vision
 ```js
   // views/Home.svelte
   <h1>Hello {name}!</h1>
+```
+
+```js
+  // views/BasicLayout.svelte
+  <nav>
+    <ul>
+      <li>Brand<li>
+    </ul>
+  </nav>
+  <slot></slot>
 ```
